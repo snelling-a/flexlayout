@@ -1,0 +1,58 @@
+/* Use the flexbox to style the sidebar and article sections. */
+
+
+
+/* For the whole page use the sans-serif font called Roboto (use the Google Fonts service). */
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 2rem;
+    font-size: 200%;
+}
+
+header {
+    background-color: #313638;
+    color: white;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    height: 100%;
+}
+
+.sidebar {
+    background-color: #F06543;
+    color: white;
+}
+
+.article {
+    padding: 2rem 10rem;
+}
+
+.article h2 {
+    border-bottom: 2px solid black;
+    padding: 0;
+}
+
+.article p {
+    line-height: 1.6;
+}
+
+
+
+
+footer {
+    background-color: #B3B3B3;
+    color: white;
+}
